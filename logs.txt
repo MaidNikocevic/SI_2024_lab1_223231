@@ -1,0 +1,35 @@
+Иницијализација на Git репозиториум:
+git init
+Додавање на датотека README.md и направување на првиот commit:
+git add README.md
+git commit -m "Initial commit"
+Поврзување со оддалечениот репозиториум на GitHub:
+git remote add origin git@github.com:MaidNikocevic/SI_2024_lab1_223231.git
+Преземање на почетните фајлови и направување на соодветниот commit:
+git add <file1> <file2> <file3>
+git commit -m "Add starter code"
+Синхронизација на гранките со оддалечениот репозиториум:
+git pull origin master
+git pull origin bug1
+git pull origin bug2
+Креирање на нови гранки и префрлање меѓу нив:
+git branch bug1
+git branch bug2
+git checkout bug1
+git checkout bug2
+git add <changed_files>
+git commit -m "Fix wrong condition in <method_name>"
+git add <changed_files>
+git commit -m "Call method <method_name> in main class"
+git checkout master
+git merge bug1
+git merge bug2
+git checkout bug2
+ git rebase master
+echo "git log" > logs.txt
+ echo "Documentation..." > INDEX.txt
+ git add logs.txt INDEX.txt
+ git commit -m "Final commit"
+ git push origin master
+ git push origin bug1
+ git push origin bug2
