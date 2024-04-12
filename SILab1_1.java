@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class SILab1_1 {
+ public class SILab1_1 {
     public static List<String> filterOddLengthStrings(List<String> list) {
         List<String> result = new ArrayList<>();
         for (String el : list) {
